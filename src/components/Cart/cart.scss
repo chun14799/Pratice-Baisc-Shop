@@ -1,0 +1,24 @@
+.cart {
+    .panel {
+        border: 1px solid #dddddd;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        .panel_body {
+            padding: 15px;
+            .cart-content {
+                color: #31708f;
+                background-color: #d9edf7;
+                border-color: #bce8f1;
+                padding: 15px;
+                margin-bottom: 20px;
+                border: 1px solid transparent;
+                border-radius: 4px;
+            }
+            .total {
+                font-weight: 700;
+                text-align: right;
+            }
+        }
+    }
+}
