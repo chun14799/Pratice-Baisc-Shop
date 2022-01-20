@@ -4,7 +4,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
     .product-card__item {
-        width: 32%;
         .item {
             margin-bottom: 20px;
             border: 1px solid #dddddd;
@@ -38,6 +37,9 @@
                             font-weight: 400;
                             text-align: center;
                             cursor: pointer;
+                        }
+                        button.Remove {
+                            color: red;
                         }
                     }
                 }

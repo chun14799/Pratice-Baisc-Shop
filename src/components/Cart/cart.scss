@@ -1,4 +1,7 @@
 .cart {
+    button {
+        cursor: pointer;
+    }
     .panel {
         border: 1px solid #dddddd;
         border-radius: 4px;
@@ -14,6 +17,31 @@
                 margin-bottom: 20px;
                 border: 1px solid transparent;
                 border-radius: 4px;
+                .row {
+                    font-size: 14px;
+                    .col-4 {
+                        button.add {
+                            background-color: #01df01;
+                            width: 20px;
+                            border: 1px solid #333;
+                            border-radius: 5px;
+                            margin-right: 2px;
+                        }
+                        button.remove {
+                            background-color: #f04040;
+                            width: 20px;
+                            border: 1px solid #333;
+                            border-radius: 5px;
+                        }
+                    }
+                    .col-4 .cancle {
+                        background-color: #f04040;
+                        border: 1px solid #333;
+                        border-radius: 5px;
+                        width: 20px;
+                        color: white;
+                    }
+                }
             }
             .total {
                 font-weight: 700;

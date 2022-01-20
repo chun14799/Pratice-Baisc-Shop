@@ -4,7 +4,7 @@ $gutter: 30px;
 .row {
     display: flex;
     flex-wrap: wrap;
-    // margin: -$gutter / 2;
+    justify-content: space-between;
 
     @for $i from 1 through $col {
         .col-#{$i} {
